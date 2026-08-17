@@ -131,7 +131,7 @@ footer{padding:52px clamp(28px,6vw,96px);background:#1c2a25}
   min-height:690px;
   padding:0;
   overflow:hidden;
-  background:#f2e8dc url('/assets/hero-elementa-genese-v6.jpg') center center / cover no-repeat;
+  background:#f2e8dc url('/assets/hero-elementa-genese-v7.jpg') center center / cover no-repeat;
 }
 .hero-visual{display:none!important}
 .hero-copy{
@@ -197,3 +197,15 @@ footer{padding:52px clamp(28px,6vw,96px);background:#1c2a25}
     );
   }
 }
+
+/* ===== V7 PREMIUM CONTENT ===== */
+.authority{background:#17231f;color:#f4efe6;padding:100px clamp(28px,6vw,96px)}
+.authority-intro{max-width:760px;margin-bottom:55px}.authority-intro .eyebrow{color:#c79a50}.authority-intro h2{font:500 clamp(44px,5vw,70px)/1 "Cormorant Garamond";margin:14px 0 20px}.authority-intro p{color:#cdc7bd;line-height:1.8;font-size:13px}
+.authority-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(255,255,255,.16);border-left:1px solid rgba(255,255,255,.16)}
+.authority-grid article{padding:34px 30px 38px;border-right:1px solid rgba(255,255,255,.16);border-bottom:1px solid rgba(255,255,255,.16);min-height:235px}.authority-grid article span{color:#c79a50;font:500 22px "Cormorant Garamond"}.authority-grid h3{font:500 27px "Cormorant Garamond";margin:13px 0}.authority-grid p{font-size:11px;line-height:1.75;color:#c9c3ba}
+.science-section{display:grid;grid-template-columns:.75fr 1.25fr;gap:70px;padding:100px clamp(28px,6vw,96px);background:#f5efe7}.science-copy h2{font:500 clamp(44px,5vw,68px)/1 "Cormorant Garamond";margin:15px 0 20px}.science-copy p{font-size:12px;line-height:1.85;color:#625c54}.process-steps{display:grid;grid-template-columns:repeat(5,1fr);align-items:stretch;border-top:1px solid var(--line);border-left:1px solid var(--line)}.process-steps div{padding:26px 20px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.process-steps b{display:block;color:var(--gold);font:500 26px "Cormorant Garamond"}.process-steps span{display:block;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin:12px 0}.process-steps small{color:var(--muted);font-size:10px;line-height:1.6}
+.spec-section{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:82px clamp(28px,6vw,96px);background:#fffdf9}.spec-card{border:1px solid var(--line);padding:34px;min-height:360px}.spec-card h3{font:500 34px "Cormorant Garamond";margin:10px 0 20px}.spec-card p,.spec-card li{font-size:11px;line-height:1.75;color:#676159}.spec-card ul{padding-left:18px}.technical-card dl{margin:0}.technical-card dl div{display:flex;justify-content:space-between;gap:25px;padding:11px 0;border-bottom:1px solid var(--line)}.technical-card dt{font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}.technical-card dd{margin:0;text-align:right;font-size:11px}
+.premium-story{border-top:1px solid var(--line)}
+.faq{padding:95px clamp(28px,6vw,96px);max-width:1200px;margin:auto}.faq header{text-align:center;margin-bottom:42px}.faq h2{font:500 56px "Cormorant Garamond";margin:8px 0}.faq details{border-top:1px solid var(--line);padding:20px 4px}.faq details:last-child{border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;font:500 24px "Cormorant Garamond"}.faq details p{max-width:800px;font-size:11px;line-height:1.75;color:var(--muted)}
+@media(max-width:1000px){.authority-grid{grid-template-columns:repeat(2,1fr)}.science-section{grid-template-columns:1fr}.process-steps{grid-template-columns:repeat(2,1fr)}.spec-section{grid-template-columns:1fr}}
+@media(max-width:620px){.authority-grid{grid-template-columns:1fr}.process-steps{grid-template-columns:1fr}.authority,.science-section,.spec-section,.faq{padding-left:18px;padding-right:18px}}
