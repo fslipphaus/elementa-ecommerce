@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELEMENTA — Administração</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<style>
+body{background:#f7f3eb}.admin{max-width:1250px;margin:auto;padding:45px 24px}.admin-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:30px}
+.admin h1{font:500 54px "Cormorant Garamond";margin:5px 0}.admin-login{display:flex;gap:8px}.admin-login input{padding:11px;border:1px solid var(--line)}
+.admin-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:24px}.panel{background:#fff;padding:24px;border:1px solid var(--line)}
+.panel h2{font:500 32px "Cormorant Garamond";margin-top:0}.admin-product{display:grid;grid-template-columns:60px 1fr 90px 100px;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.admin-product img{width:60px;height:60px;object-fit:cover}.admin-product input{width:100%;padding:8px;border:1px solid var(--line)}
+.order{border-bottom:1px solid var(--line);padding:15px 0}.order-top{display:flex;justify-content:space-between;gap:12px}.order small{color:var(--muted)}
+.order select{margin-top:8px;padding:7px;border:1px solid var(--line)}.order-items{font-size:11px;margin-top:8px;color:#5f5a52}
+@media(max-width:850px){.admin-grid{grid-template-columns:1fr}.admin-product{grid-template-columns:50px 1fr 75px 85px}}
+</style></head>
+<body><main class="admin">
+<div class="admin-head"><div><span class="eyebrow">PAINEL INTERNO</span><h1>ELEMENTA Admin</h1></div>
+<div class="admin-login"><input id="token" type="password" placeholder="Token administrativo"><button class="button" id="login">Entrar</button></div></div>
+<div id="adminMessage"></div>
+<div class="admin-grid">
+<section class="panel"><h2>Produtos e estoque</h2><div id="adminProducts"></div></section>
+<section class="panel"><h2>Pedidos</h2><div id="adminOrders"></div></section>
+</div></main><script type="module" src="/admin.js"></script></body></html>

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "oxygen",
+    "name": "Oxygen",
+    "symbol": "O",
+    "collection": "GÊNESE",
+    "price": 169.9,
+    "image": "/assets/oxygen.png",
+    "profile": "Fresco · Verde · Translúcido",
+    "short": "Leve e luminoso como o ar renovado. Uma fragrância que abre espaço, acalma e traz clareza.",
+    "top": "Bambu · hortelã branca",
+    "heart": "Chá verde · neroli",
+    "base": "Vetiver claro · musk branco",
+    "vessel": "Vidro Granada transparente",
+    "stock": 20,
+    "sku": "ELM-GEN-O",
+    "weight_grams": 650,
+    "dimensions_cm": {
+      "width": 9,
+      "height": 9,
+      "length": 9
+    }
+  },
+  {
+    "id": "carbon",
+    "name": "Carbon",
+    "symbol": "C",
+    "collection": "GÊNESE",
+    "price": 169.9,
+    "image": "/assets/carbon.png",
+    "profile": "Amadeirado · Profundo · Sofisticado",
+    "short": "Denso, elegante e envolvente. Uma composição de madeiras, especiarias e âmbar com presença marcante.",
+    "top": "Cardamomo · pimenta-preta",
+    "heart": "Cedro Atlas · vetiver",
+    "base": "Âmbar · cashmeran · madeira de guaiaco",
+    "vessel": "Vidro Granada preto",
+    "stock": 20,
+    "sku": "ELM-GEN-C",
+    "weight_grams": 650,
+    "dimensions_cm": {
+      "width": 9,
+      "height": 9,
+      "length": 9
+    }
+  },
+  {
+    "id": "nitrogenium",
+    "name": "Nitrogenium",
+    "symbol": "N",
+    "collection": "GÊNESE",
+    "price": 169.9,
+    "image": "/assets/nitrogenium.png",
+    "profile": "Floral · Elegante · Delicado",
+    "short": "Um floral sofisticado, delicado e confortável. Traz equilíbrio e suavidade sem perder personalidade.",
+    "top": "Pera · mandarina",
+    "heart": "Íris · peônia · jasmim sambac",
+    "base": "Musk · cedro claro",
+    "vessel": "Vidro Granada âmbar",
+    "stock": 20,
+    "sku": "ELM-GEN-N",
+    "weight_grams": 650,
+    "dimensions_cm": {
+      "width": 9,
+      "height": 9,
+      "length": 9
+    }
+  },
+  {
+    "id": "hydrogen",
+    "name": "Hydrogen",
+    "symbol": "H",
+    "collection": "GÊNESE",
+    "price": 169.9,
+    "image": "/assets/hydrogen.png",
+    "profile": "Limpo · Leve · Etéreo",
+    "short": "Puro e minimalista. Uma combinação clara e confortável que traduz a leveza do elemento mais simples.",
+    "top": "Bergamota · limão-siciliano · petitgrain",
+    "heart": "Chá branco · flor de algodão",
+    "base": "Musk branco · cashmeran",
+    "vessel": "Vidro Granada branco fosco",
+    "stock": 20,
+    "sku": "ELM-GEN-H",
+    "weight_grams": 650,
+    "dimensions_cm": {
+      "width": 9,
+      "height": 9,
+      "length": 9
+    }
+  }
+]
