@@ -1,40 +1,11 @@
-databases:
-  - name: elementa-db
-    plan: basic-256mb
-    databaseName: elementa
-    user: elementa
-
 services:
   - type: web
-    name: elementa-ecommerce
+    name: elementa-ecommerce-demo
     runtime: docker
-    plan: starter
+    plan: free
     healthCheckPath: /api/products
-    preDeployCommand: npm run migrate && npm run seed
     envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: elementa-db
-          property: connectionString
-      - key: DATABASE_SSL
-        value: "true"
       - key: BASE_URL
-        sync: false
-      - key: MERCADO_PAGO_ACCESS_TOKEN
-        sync: false
-      - key: MELHOR_ENVIO_TOKEN
-        sync: false
-      - key: MELHOR_ENVIO_ENV
-        value: production
-      - key: MELHOR_ENVIO_ORIGIN_CEP
-        sync: false
-      - key: MELHOR_ENVIO_USER_AGENT
-        sync: false
-      - key: RESEND_API_KEY
-        sync: false
-      - key: EMAIL_FROM
-        sync: false
-      - key: EMAIL_ADMIN
         sync: false
       - key: ADMIN_TOKEN
         sync: false
