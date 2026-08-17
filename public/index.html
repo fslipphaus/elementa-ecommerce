@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#f4eee4">
+  <meta name="theme-color" content="#f6efe5">
   <title>ELEMENTA — Essência que transforma</title>
-  <meta name="description" content="ELEMENTA — velas perfumadas da coleção Gênese. Ciência, natureza e presença.">
+  <meta name="description" content="Velas perfumadas ELEMENTA. Ciência, natureza e alma em quatro essências.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -13,125 +13,137 @@
 </head>
 <body>
   <header class="header">
-    <a class="brand" href="#inicio">
-      <span>ELEMENTA</span>
-      <small>ESSÊNCIA QUE TRANSFORMA</small>
-    </a>
+    <a class="brand" href="#inicio"><span>ELEMENTA</span><small>ESSÊNCIA QUE TRANSFORMA</small></a>
     <nav>
-      <a href="#colecao">Coleção</a>
+      <a href="#colecao">Coleções</a>
+      <a href="#colecao">Velas</a>
       <a href="#sobre">Sobre nós</a>
-      <a href="#jornada">Jornada</a>
+      <a href="#processo">Jornada</a>
+      <a href="#contato">Contato</a>
     </nav>
-    <button class="cart-button" id="openCart" aria-label="Abrir carrinho">
-      Carrinho <span id="cartCount">0</span>
-    </button>
+    <button class="cart-button" id="openCart">Carrinho <span id="cartCount">0</span></button>
   </header>
 
   <main>
     <section class="hero" id="inicio">
+      <div class="hero-photo" aria-hidden="true"></div>
       <div class="hero-copy">
         <span class="eyebrow">QUATRO ELEMENTOS. QUATRO ESSÊNCIAS.</span>
         <h1>Essências que transformam momentos em presença.</h1>
+        <div class="gold-rule"></div>
         <p>Ciência, natureza e alma traduzidas em fragrâncias autorais para transformar o ambiente e a forma como você o sente.</p>
-        <a class="button" href="#colecao">Conheça a coleção</a>
+        <a class="button" href="#colecao">Conheça as coleções</a>
       </div>
-      <div class="hero-visual" aria-hidden="true"></div>
     </section>
 
     <section class="benefits">
-      <div><b>Cera vegetal de coco</b><span>Queima limpa e confortável.</span></div>
-      <div><b>Pavio de algodão</b><span>Estabilidade e chama elegante.</span></div>
-      <div><b>Produzido à mão</b><span>Pequenos lotes e atenção aos detalhes.</span></div>
-      <div><b>Feito no Brasil</b><span>Design e produção local.</span></div>
+      <article><span class="benefit-icon">◌</span><b>Cera vegetal<br>de coco</b><small>Base vegetal selecionada para nossas formulações.</small></article>
+      <article><span class="benefit-icon">♧</span><b>Pavio de algodão</b><small>Selecionado e testado para cada combinação.</small></article>
+      <article><span class="benefit-icon">⚗</span><b>Fragrâncias<br>selecionadas</b><small>Perfis construídos em notas de saída, corpo e fundo.</small></article>
+      <article><span class="benefit-icon">♡</span><b>Produzido<br>à mão</b><small>Pequenos lotes e atenção aos detalhes.</small></article>
+      <article><span class="benefit-icon">◇</span><b>Feito no Brasil</b><small>Desenvolvimento e produção local.</small></article>
+      <article><span class="benefit-icon">✓</span><b>Qualidade<br>e segurança</b><small>Conferência de acabamento e testes de queima.</small></article>
     </section>
 
     <section class="collection" id="colecao">
       <header class="section-title">
-        <span>GÊNESE</span>
-        <h2>Nossas quatro essências</h2>
-        <p>A origem de tudo, reinterpretada em perfume.</p>
+        <h2>Nossas coleções</h2>
+        <div class="title-rule"></div>
+        <p>Quatro elementos. Quatro essências. A origem de tudo.</p>
       </header>
       <div class="product-grid" id="productGrid"></div>
     </section>
 
-    <section class="story" id="sobre">
-      <div>
-        <span class="eyebrow">SOBRE A ELEMENTA</span>
-        <h2>Ciência, natureza e alma.</h2>
-        <p>A ELEMENTA nasce do encontro entre composição, matéria e sensibilidade. Cada vela é pensada como um objeto de presença: visualmente silencioso, olfativamente marcante.</p>
-        <p>Na coleção Gênese, quatro elementos essenciais se tornam quatro atmosferas diferentes — leves, florais, profundas e contemplativas.</p>
+    <section class="quality-section" id="processo">
+      <div class="quality-intro">
+        <span class="eyebrow">POR QUE NOSSAS VELAS SÃO DIFERENTES</span>
+        <h2>Qualidade que se sente desde a primeira queima.</h2>
+        <p>Uma vela equilibrada nasce da combinação entre recipiente, cera, pavio e fragrância. Na ELEMENTA, desenvolvemos e avaliamos o conjunto — não apenas componentes isolados.</p>
+        <a href="#science" class="outline-button">Saiba mais sobre o processo</a>
       </div>
-      <img src="/assets/nitrogenium.png" alt="Vela ELEMENTA Nitrogenium em vidro âmbar">
+      <div class="quality-grid">
+        <article><span>◌</span><h3>Cera vegetal de coco</h3><p>Escolhida pelo acabamento cremoso e pelo comportamento adequado quando formulada para velas aromáticas.</p></article>
+        <article><span>♧</span><h3>Pavio dimensionado</h3><p>Selecionado para o recipiente e validado em testes de queima.</p></article>
+        <article><span>⚗</span><h3>Fragrâncias estruturadas</h3><p>Notas de saída, corpo e fundo para construir uma experiência olfativa completa.</p></article>
+        <article><span>♡</span><h3>Produção em pequenos lotes</h3><p>Mais controle visual, conferência de pavio e rastreabilidade de cada etapa.</p></article>
+        <article><span>◷</span><h3>Cura controlada</h3><p>A vela repousa antes da avaliação final e da liberação do lote.</p></article>
+      </div>
     </section>
 
-    <section class="journey" id="jornada">
-      <span class="eyebrow">A JORNADA</span>
-      <h2>Da matéria ao ambiente.</h2>
-      <div class="journey-grid">
-        <article><strong>01</strong><h3>Composição</h3><p>Perfis olfativos desenhados em camadas de saída, corpo e fundo.</p></article>
-        <article><strong>02</strong><h3>Matéria</h3><p>Cera vegetal, pavio de algodão e recipientes selecionados para cada essência.</p></article>
-        <article><strong>03</strong><h3>Presença</h3><p>Uma peça que permanece bonita acesa ou apagada e muda a leitura do ambiente.</p></article>
+    <section class="science-section" id="science">
+      <div class="science-intro">
+        <span class="eyebrow">A CIÊNCIA DA QUEIMA</span>
+        <h2>Mais que uma vela. Uma experiência pensada em cada detalhe.</h2>
+        <p>Uma vela funciona como um sistema. O equilíbrio entre pavio, cera, fragrância, recipiente e tempo de uso influencia chama, piscina de fusão e desempenho olfativo.</p>
       </div>
+      <div class="science-steps">
+        <article><strong>01</strong><h3>Escolha da cera</h3><p>Definição da base vegetal e do comportamento desejado para a fórmula.</p></article>
+        <article><strong>02</strong><h3>Teste de pavio</h3><p>Comparação de opções compatíveis com o diâmetro do recipiente e a composição.</p></article>
+        <article><strong>03</strong><h3>Perfumação</h3><p>A fragrância é incorporada conforme os parâmetros definidos para a formulação.</p></article>
+        <article><strong>04</strong><h3>Cura e maturação</h3><p>Tempo de repouso antes da inspeção e dos testes finais.</p></article>
+        <article><strong>05</strong><h3>Controle de qualidade</h3><p>Conferência de acabamento, pavio e comportamento do lote antes da embalagem.</p></article>
+      </div>
+    </section>
+
+    <section class="detail-grid" id="sobre">
+      <article>
+        <span class="eyebrow">COMO APROVEITAR SUA ELEMENTA</span>
+        <h3>Cuidados de uso</h3>
+        <p>Antes de reacender, apare o pavio. Mantenha a vela sobre superfície estável e resistente ao calor, protegida de correntes de ar e sempre sob supervisão.</p>
+      </article>
+      <article>
+        <span class="eyebrow">DENTRO DE UMA ELEMENTA</span>
+        <h3>Ficha do produto</h3>
+        <dl><div><dt>Cera</dt><dd>Vegetal de coco</dd></div><div><dt>Pavio</dt><dd>Algodão</dd></div><div><dt>Produção</dt><dd>Pequenos lotes</dd></div><div><dt>Origem</dt><dd>Brasil</dd></div></dl>
+      </article>
+      <article>
+        <span class="eyebrow">TRANSPARÊNCIA</span>
+        <h3>Informação antes de promessa.</h3>
+        <p>Preferimos comunicar o que conseguimos controlar: formulação, matérias-primas, testes, acabamento e modo de uso. Evitamos alegações absolutas sem documentação específica.</p>
+      </article>
+    </section>
+
+    <section class="faq">
+      <header class="section-title"><h2>Perguntas frequentes</h2><div class="title-rule"></div></header>
+      <details><summary>Por que aparar o pavio?</summary><p>Um pavio muito longo pode produzir chama maior. Apará-lo antes de reacender ajuda a manter a queima mais controlada.</p></details>
+      <details><summary>Por que a primeira queima importa?</summary><p>Ela ajuda a formar uma piscina de fusão mais uniforme na superfície. Siga sempre o tempo de uso indicado na embalagem.</p></details>
+      <details><summary>Velas vegetais produzem fuligem?</summary><p>Toda combustão pode gerar resíduos em determinadas condições. Pavio, corrente de ar e forma de uso influenciam a chama.</p></details>
     </section>
   </main>
 
-  <footer>
-    <div class="brand footer-brand"><span>ELEMENTA</span><small>ESSÊNCIA QUE TRANSFORMA</small></div>
-    <p>Atendimento e informações comerciais podem ser conectados ao WhatsApp, Instagram e e-mail da marca.</p>
+  <footer id="contato">
+    <div class="footer-brand brand"><span>ELEMENTA</span><small>ESSÊNCIA QUE TRANSFORMA</small></div>
+    <div><b>Institucional</b><a href="#sobre">Sobre nós</a><a href="#processo">Jornada</a><a href="#colecao">Coleções</a></div>
+    <div><b>Atendimento</b><a href="#">Trocas e devoluções</a><a href="#">Política de privacidade</a><a href="#">Termos de uso</a></div>
+    <div><b>Newsletter</b><p>Receba novidades e conteúdos exclusivos da ELEMENTA.</p></div>
   </footer>
 
   <div class="overlay" id="overlay"></div>
-
   <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
-    <div class="drawer-head">
-      <div><span class="eyebrow">SEU PEDIDO</span><h2>Carrinho</h2></div>
-      <button id="closeCart" aria-label="Fechar carrinho">×</button>
-    </div>
+    <div class="drawer-head"><div><span class="eyebrow">SEU PEDIDO</span><h2>Carrinho</h2></div><button id="closeCart">×</button></div>
     <div id="cartItems" class="cart-items"></div>
-    <div class="cart-summary">
-      <div><span>Subtotal</span><strong id="cartSubtotal">R$ 0,00</strong></div>
-      <small>Frete calculado antes do pagamento.</small>
-      <button class="button full" id="goCheckout">Finalizar compra</button>
-    </div>
+    <div class="cart-summary"><div><span>Subtotal</span><strong id="cartSubtotal">R$ 0,00</strong></div><small>Frete calculado antes do pagamento.</small><button class="button full" id="goCheckout">Finalizar compra</button></div>
   </aside>
 
-  <dialog id="productDialog" class="product-dialog">
-    <button class="dialog-close" id="closeProduct">×</button>
-    <div id="productDialogContent"></div>
-  </dialog>
-
+  <dialog id="productDialog" class="product-dialog"><button class="dialog-close" id="closeProduct">×</button><div id="productDialogContent"></div></dialog>
   <dialog id="checkoutDialog" class="checkout-dialog">
     <button class="dialog-close" id="closeCheckout">×</button>
     <form id="checkoutForm">
-      <span class="eyebrow">FINALIZAR COMPRA</span>
-      <h2>Seus dados</h2>
+      <span class="eyebrow">FINALIZAR COMPRA</span><h2>Seus dados</h2>
       <div class="form-grid">
-        <label>Nome completo<input name="name" autocomplete="name" required></label>
-        <label>E-mail<input type="email" name="email" autocomplete="email" required></label>
-        <label>Telefone<input name="phone" autocomplete="tel" required></label>
-        <label>CEP<input name="zip" id="zipInput" autocomplete="postal-code" inputmode="numeric" required><small id="cepStatus"></small></label>
-        <label class="wide">Endereço<input name="address" id="addressInput" autocomplete="street-address" required></label>
-        <label>Número<input name="number" required></label>
-        <label>Complemento<input name="complement"></label>
-        <label>Bairro<input name="district" id="districtInput"></label>
-        <label>Cidade<input name="city" id="cityInput" autocomplete="address-level2" required></label>
-        <label>UF<input name="state" id="stateInput" maxlength="2" autocomplete="address-level1" required></label>
+        <label>Nome completo<input name="name" required></label><label>E-mail<input type="email" name="email" required></label>
+        <label>Telefone<input name="phone" required></label><label>CEP<input name="zip" id="zipInput" required><small id="cepStatus"></small></label>
+        <label class="wide">Endereço<input name="address" id="addressInput" required></label><label>Número<input name="number" required></label>
+        <label>Complemento<input name="complement"></label><label>Bairro<input name="district" id="districtInput"></label>
+        <label>Cidade<input name="city" id="cityInput" required></label><label>UF<input name="state" id="stateInput" maxlength="2" required></label>
       </div>
-      <div class="shipping-box" id="shippingBox">
-        <span>Informe o CEP para calcular a entrega.</span>
-      </div>
-      <div class="checkout-total">
-        <div><span>Produtos</span><strong id="checkoutSubtotal">R$ 0,00</strong></div>
-        <div><span>Frete</span><strong id="checkoutShipping">—</strong></div>
-        <div class="grand-total"><span>Total</span><strong id="checkoutTotal">R$ 0,00</strong></div>
-      </div>
-      <button class="button full" type="submit" id="payButton">Ir para o pagamento</button>
-      <p class="checkout-note">O pagamento é iniciado no backend. Com a credencial configurada, você será redirecionado ao Checkout Pro do Mercado Pago.</p>
-      <div id="checkoutMessage"></div>
+      <div class="shipping-box" id="shippingBox"><span>Informe o CEP para calcular a entrega.</span></div>
+      <div class="checkout-total"><div><span>Produtos</span><strong id="checkoutSubtotal">R$ 0,00</strong></div><div><span>Frete</span><strong id="checkoutShipping">—</strong></div><div class="grand-total"><span>Total</span><strong id="checkoutTotal">R$ 0,00</strong></div></div>
+      <button class="button full" type="submit" id="payButton">Ir para o pagamento</button><div id="checkoutMessage"></div>
     </form>
   </dialog>
 
-  <a id="whatsappFloat" class="whatsapp-float" href="#" target="_blank" rel="noopener" aria-label="Falar com a ELEMENTA no WhatsApp">WhatsApp</a>
+  <a id="whatsappFloat" class="whatsapp-float" href="#" target="_blank" rel="noopener">WhatsApp</a>
   <div id="toast" class="toast"></div>
   <script type="module" src="/app.js"></script>
 </body>

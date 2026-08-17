@@ -1,6 +1,6 @@
 {
   "name": "elementa-ecommerce",
-  "version": "7.0.0-demo",
+  "version": "8.0.0-demo",
   "private": true,
   "type": "module",
   "scripts": {
